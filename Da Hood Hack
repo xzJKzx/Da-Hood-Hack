@@ -1,0 +1,126 @@
+
+
+local ScreenGui = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local DaHoodHack = Instance.new("TextLabel")
+local Unban = Instance.new("TextButton")
+local BringAll = Instance.new("TextButton")
+local AutoStomp = Instance.new("TextButton")
+local AutoDrop = Instance.new("TextButton")
+local close = Instance.new("TextButton")
+local Fly = Instance.new("TextButton")
+local Speed = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+main.Name = "main"
+main.Parent = ScreenGui
+main.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+main.Position = UDim2.new(0.249683142, 0, 0.274353892, 0)
+main.Size = UDim2.new(0, 438, 0, 246)
+main.Active = true
+main.Draggable = true
+
+DaHoodHack.Name = "Da Hood Hack"
+DaHoodHack.Parent = main
+DaHoodHack.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+DaHoodHack.Size = UDim2.new(0, 438, 0, 50)
+DaHoodHack.Font = Enum.Font.SourceSans
+DaHoodHack.Text = "Da Hood Hack"
+DaHoodHack.TextColor3 = Color3.fromRGB(0, 0, 0)
+DaHoodHack.TextSize = 30.000
+
+Unban.Name = "Unban"
+Unban.Parent = main
+Unban.BackgroundColor3 = Color3.fromRGB(94, 94, 94)
+Unban.Position = UDim2.new(0.0317830816, 0, 0.252212405, 0)
+Unban.Size = UDim2.new(0, 176, 0, 50)
+Unban.Font = Enum.Font.SourceSans
+Unban.Text = "Unban"
+Unban.TextColor3 = Color3.fromRGB(0, 0, 0)
+Unban.TextSize = 14.000
+Unban.MouseButton1Down:connect(function()
+    loadstring(game:GetObjects("rbxassetid://5812737894")[1].Source)()
+end)
+
+BringAll.Name = "Bring All"
+BringAll.Parent = main
+BringAll.BackgroundColor3 = Color3.fromRGB(94, 94, 94)
+BringAll.Position = UDim2.new(0.563926935, 0, 0.735772371, 0)
+BringAll.Size = UDim2.new(0, 176, 0, 50)
+BringAll.Font = Enum.Font.SourceSans
+BringAll.Text = "Bring All"
+BringAll.TextColor3 = Color3.fromRGB(0, 0, 0)
+BringAll.TextSize = 14.000
+BringAll.MouseButton1Down:connect(function()
+    loadstring(game:GetObjects("rbxassetid://5812737894")[1].Source)()
+end)
+
+AutoStomp.Name = "Auto Stomp"
+AutoStomp.Parent = main
+AutoStomp.BackgroundColor3 = Color3.fromRGB(94, 94, 94)
+AutoStomp.Position = UDim2.new(0.563926935, 0, 0.487804919, 0)
+AutoStomp.Size = UDim2.new(0, 176, 0, 50)
+AutoStomp.Font = Enum.Font.SourceSans
+AutoStomp.Text = "Auto Stomp"
+AutoStomp.TextColor3 = Color3.fromRGB(0, 0, 0)
+AutoStomp.TextSize = 14.000
+AutoStomp.MouseButton1Down:connect(function()
+    loadstring(game:GetObjects("rbxassetid://5812737894")[1].Source)()
+end)
+
+AutoDrop.Name = "Auto Drop"
+AutoDrop.Parent = main
+AutoDrop.BackgroundColor3 = Color3.fromRGB(94, 94, 94)
+AutoDrop.Position = UDim2.new(0.564900994, 0, 0.252212375, 0)
+AutoDrop.Size = UDim2.new(0, 176, 0, 50)
+AutoDrop.Font = Enum.Font.SourceSans
+AutoDrop.Text = "Auto Drop"
+AutoDrop.TextColor3 = Color3.fromRGB(0, 0, 0)
+AutoDrop.TextSize = 14.000
+AutoDrop.MouseButton1Down:connect(function()
+    loadstring(game:GetObjects("rbxassetid://5812737894")[1].Source)()
+end)
+
+close.Name = "close"
+close.Parent = main
+close.BackgroundColor3 = Color3.fromRGB(94, 94, 94)
+close.Position = UDim2.new(0.882618487, 0, 0.0486725569, 0)
+close.Size = UDim2.new(0, 37, 0, 27)
+close.Font = Enum.Font.SourceSans
+close.Text = "X"
+close.TextColor3 = Color3.fromRGB(0, 0, 0)
+close.TextSize = 14.000
+close.MouseButton1Down:connect(function()
+    main.Visible = false
+    close.Visible = true
+end)
+
+Fly.Name = "Fly"
+Fly.Parent = main
+Fly.BackgroundColor3 = Color3.fromRGB(94, 94, 94)
+Fly.Position = UDim2.new(0.0317830816, 0, 0.734873056, 0)
+Fly.Size = UDim2.new(0, 176, 0, 50)
+Fly.Font = Enum.Font.SourceSans
+Fly.Text = "Fly"
+Fly.TextColor3 = Color3.fromRGB(0, 0, 0)
+Fly.TextSize = 14.000
+Fly.MouseButton1Down:connect(function()
+    loadstring(game:GetObjects("rbxassetid://5812737894")[1].Source)()
+end)
+
+Speed.Name = "Speed"
+Speed.Parent = main
+Speed.BackgroundColor3 = Color3.fromRGB(94, 94, 94)
+Speed.Position = UDim2.new(0.0317830816, 0, 0.485178769, 0)
+Speed.Size = UDim2.new(0, 176, 0, 50)
+Speed.Font = Enum.Font.SourceSans
+Speed.Text = "Speed"
+Speed.TextColor3 = Color3.fromRGB(0, 0, 0)
+Speed.TextSize = 14.000
+Speed.MouseButton1Down:connect(function()
+    loadstring(game:GetObjects("rbxassetid://5812737894")[1].Source)()
+end)
